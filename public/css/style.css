@@ -1,0 +1,31 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+footer {
+  background: #333;
+  color: #999;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#table1 thead {
+  text-align: center;
+  padding: 15px;
+}
+#table1 thead {
+  padding: 12px;
+  text-align: left;
+}
+.bg-1 {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}

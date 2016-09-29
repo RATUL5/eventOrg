@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Event App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+          <div class="navbar-header">
+             <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span></a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/eventCreate">create event</a></li>
+            </ul>
+          </div>
+       </div>
+      </nav>
+
+      <section>
+         <div class="container-fluid">
+            <%- body %>
+         </div>
+      </section>
+
+      <footer class="text-center">
+           <small>&copy; 2016 <strong>event.Org</strong></small>
+      </footer>
+
+
+
+  </body>
+</html>
