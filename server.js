@@ -1,5 +1,8 @@
 "use stricts";
 
+//CONFIG env variables
+require('dotenv').config();
+
 //requiring modules goes here
 const express = require('express'),
       app = express(),
@@ -21,7 +24,7 @@ app.use(expressLayouts);
 app.use(require('./app/routes'));
 
 //connect to database
-mongoose.connect("mongodb://ratultamuli:aitumoni1.@ds039684.mlab.com:39684/events");
+mongoose.connect(process.env.DB_URI);
 
 app.listen(3000, () => {
    console.log('server is running....')

@@ -15,6 +15,7 @@
     "mongoose":"latest",
     "morgan":"latest",
     "ejs":"latest",
-    "express-ejs-layouts":"latest"
+    "express-ejs-layouts":"latest",
+    "dotenv" : "latest"
   }
 }
